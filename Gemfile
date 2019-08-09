@@ -19,6 +19,7 @@ gem 'puma', '~> 3.11'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 gem 'simple_command'
+gem 'sorbet-runtime'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -44,6 +45,7 @@ group :development do
   gem 'rubocop'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'sorbet'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
