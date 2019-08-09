@@ -30,6 +30,9 @@ module Spotify
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
+    # use structure.sql to store schema
+    config.active_record.schema_format = :sql
+
     # TODO: - be more / general here depending on API requirements for autoload_paths
     config.autoload_paths << Rails.root.join('lib/service_objects')
 
